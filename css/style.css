@@ -1,26 +1,26 @@
 /** 
-  Platinum Sample
-  Image copy: full sail university
-  Code: Tatiana Kerick
-  
-
-  Colors
-  ----------
-  -Body bg
-  	light grey: dbdbdb
-  -Header/footer/form bg
-  	green: 333327
-  -Main: 
-  	white (fonts)
-  	grey: d4d4d4
-  	dark grey: d4d4d4
-  -Buttons
+ * Platinum Sample
+ * Image copy: full sail university
+ * Code: Tatiana Kerick
+ * 
+ *
+ * Colors
+ * ----------
+ * Body bg
+ * 	light grey: dbdbdb
+ * Header/footer/form bg
+ * 	green: 333327
+ * Main: 
+ * 	white (fonts)
+ * 	grey: d4d4d4
+ * 	dark grey: d4d4d4
+ * Buttons
     orange: c75113
-  -Focus images
-  	darker grey: 737373
-  -Font
-  	h: 444444
-  	p: 7d7d7d
+ * Focus images
+ * 	darker grey: 737373
+ * Font
+ * 	h: 444444
+ * 	p: 7d7d7d
 */
   
 
@@ -59,9 +59,10 @@ body {
 }
 
 #info h4 {
-	font-size: 2.100em;
-	color: #fff;
-	padding: 30px 10px 5px 10px;
+	font-size: 1.800em;
+	color: #f7f6f6;
+	padding: 20px 10px 0 20px;
+	text-transform: uppercase;
 }
 
 #info form {
@@ -72,14 +73,104 @@ label {
 	display: block;
 	color: #fff;
 	font-size: 1.400em;
-	padding: 10px 0 5px 0;
+	padding: 15px 0 5px 0;
 }
 
-input,
-select {
+input {
 	width: 270px;
 	height: 20px;
+	padding-bottom: 5px;
 }
+
+/* General dropdown styles */       
+.dropdown dd, 
+.dropdown dt, 
+.dropdown ul { 
+	margin:0px; 
+	padding:0px; 
+}
+
+.dropdown dd { 
+	position:relative; 
+}
+
+/* DT styles for sliding doors */
+.dropdown dt a {
+	background: #f7f6f6 url(../img/arrow.png) no-repeat scroll right center;
+    display: block;  
+    width: 255px;
+    height: 20px;
+    padding: 5px 20px 5px 0;
+}
+
+.dropdown dt a span {
+	cursor: pointer; 
+	display: block; 
+	padding: 5px;
+	text-decoration: none;
+}
+
+/* UL styles */
+.dropdown dd ul { 
+	background: #f7f6f6 none repeat scroll 0 0; 
+	display: none;
+    list-style: none; 
+    padding: 5px 0px; 
+    position: absolute; 
+    left: 0px; 
+    top: 2px; 
+    width: auto; 
+    min-width: 255px;
+}
+
+.dropdown span.value { 
+	display: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.600em;
+}
+
+.dropdown dd ul li a { 
+	padding: 5px; 
+	display: block;
+	text-decoration: none;
+	font-size: 1.600em;
+	color: #000;
+}
+
+.dropdown dd ul li a:hover {
+	background-color: #dbdbdb;
+}
+
+.dropdown dd ul li a:active {
+	text-decoration: none;
+}
+
+.btn {
+	width: 279px;
+	height: 30px;
+	background-color: #c75113;
+	margin: 20px 0 5px 0;
+	border: none;
+	color: #f7f6f6;
+	text-transform: uppercase;
+	font-size: 1.400em;
+	transition: background-color 0.5 ease;
+}
+
+.btn:hover {
+	background-color: #be4d12;
+	color: #eeecec;
+}
+
+.warning {
+	width: 270px;
+	padding: 5px 20px 20px 20px;
+	color: #f7f6f6;
+	line-height: 15px;
+	font-size: 1.300em;
+}
+
 
 
 
