@@ -1,4 +1,120 @@
-wrapper {
-	width: 960px;
+/** 
+  Platinum Sample
+  Image copy: full sail university
+  Code: Tatiana Kerick
+  
+
+  Colors
+  ----------
+  -Body bg
+  	light grey: dbdbdb
+  -Header/footer/form bg
+  	green: 333327
+  -Main: 
+  	white (fonts)
+  	grey: d4d4d4
+  	dark grey: d4d4d4
+  -Buttons
+    orange: c75113
+  -Focus images
+  	darker grey: 737373
+  -Font
+  	h: 444444
+  	p: 7d7d7d
+*/
+  
+
+/* BODY STYLES AND FONT 
+------------------------------*/
+body {
+	background-color: #dbdbdb;
+	font-size: 62.5%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
 	margin: 0 auto;
 }
+
+#topBar {
+	background-color: #333327;
+	height: 40px;
+}
+
+#topBar img {
+	padding: 5px 0 0 10%;
+}
+
+
+/* FORM
+-------------------------------*/
+#info {
+	width: 320px;
+	height: ;
+	background-color: #333327;
+	position: absolute;
+	z-index: 1;
+	top: 60px;
+	left: 60%;
+}
+
+#info h4 {
+	font-size: 2.100em;
+	color: #fff;
+	padding: 30px 10px 5px 10px;
+}
+
+#info form {
+	padding: 10px 20px 10px 20px;
+}
+
+label {
+	display: block;
+	color: #fff;
+	font-size: 1.400em;
+	padding: 10px 0 5px 0;
+}
+
+input,
+select {
+	width: 270px;
+	height: 20px;
+}
+
+
+
+/* MAIN CONTENT
+--------------------------------*/
+#featureImg {
+	background: #000 url(../img/feature_image.jpg) center no-repeat;
+	width: 100%;
+	height: 400px;
+}
+
+#degree {
+	width: 250px;
+	height: 60px;
+	background-color: rgba(26, 26, 26, 0.7);
+	position: absolute;
+	top: 360px;
+	left: 18%;
+}
+
+#degree h5 {
+	color: #fff;
+	font-size: 1.700em;
+	font-weight: bold;
+	padding: 10px 0 3px 15px;
+}
+
+#degree p {
+	color: #fff;
+	font-size: 1.400em;
+	padding: 3px 0 10px 15px;
+}
+
+.i {
+	font-style: italic;
+}
+
+
