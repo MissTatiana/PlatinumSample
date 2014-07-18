@@ -14,7 +14,7 @@
  * 	white (fonts)
  * 	grey: d4d4d4
  * 	dark grey: d4d4d4
- * Buttons
+ * Buttons/a
     orange: c75113
  * Focus images
  * 	darker grey: 737373
@@ -25,7 +25,7 @@
   
 
 /* BODY STYLES AND FONT 
-------------------------------*/
+--------------------------------------*/
 body {
 	background-color: #dbdbdb;
 	font-size: 62.5%;
@@ -42,12 +42,12 @@ body {
 }
 
 #topBar img {
-	padding: 5px 0 0 10%;
+	padding: 5px 0 0 16%;
 }
 
 
 /* FORM
--------------------------------*/
+-------------------------------------*/
 #info {
 	width: 320px;
 	height: ;
@@ -172,10 +172,8 @@ input {
 }
 
 
-
-
-/* MAIN CONTENT
---------------------------------*/
+/* Feature Image
+-----------------------------------------*/
 #featureImg {
 	background: #000 url(../img/feature_image.jpg) center no-repeat;
 	width: 100%;
@@ -188,7 +186,7 @@ input {
 	background-color: rgba(26, 26, 26, 0.7);
 	position: absolute;
 	top: 360px;
-	left: 18%;
+	left: 16%;
 }
 
 #degree h5 {
@@ -207,5 +205,158 @@ input {
 .i {
 	font-style: italic;
 }
+
+/* MAIN CONTENT
+-----------------------------------------*/
+#mainContent {
+	background-color: #fff;
+} 
+
+/* BODY TEXT
+----------------------*/
+#bodyText {
+	padding: 50px 0 0 16%;
+}
+
+#bodyText h1 {
+	color: #444444;
+	font-size: 2.500em;
+	font-weight: bold;
+}
+
+#bodyText p {
+	margin: 20px 0 0 0;
+	width: 430px;
+	font-size: 1.400em;
+	line-height: 15px;
+}
+
+/* FOCUS AREAS
+------------------------*/
+#focusIntro {
+	padding: 70px 0 0 16%;
+}
+
+
+.hr {
+	width: 320px;
+	float: left;
+	border-bottom: 2px solid #d4d4d4;
+	margin-top: 10px;
+}
+
+.hr hr {
+	display: none;
+}
+
+
+#focusIntro h3 {
+	width: 260px;
+	float: left;
+	font-size: 2.000em;
+	color: #7d7d7d;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 0 5px 0 5px;
+}
+
+#focusAreas {
+	background-color: #d4d4d4;
+	padding: 0px 0 0 16%;
+	margin-top: 70px;
+	height: 270px;
+}
+
+.focus {
+	width: 230px;
+	float: left;
+	position: relative;
+	top: -30px;
+	margin: 0 30px 0 40px;
+	text-align: center;
+}
+
+.focus h5 {
+	font-weight: bold;
+	font-size: 1.500em;
+	color: #444444;
+	margin: 5px 0 5px 0;
+}
+
+.focus p {
+	text-align: left;
+	font-size: 1.200em;
+	color: #7d7d7d;
+	line-height: 20px;
+}
+
+/* ONLINE 
+-------------------------*/
+#online {
+	background-color: #b1b1b1;
+	padding: 20px 0 0 18%;
+	height: 300px;
+}
+
+#online img {
+	float: left;
+	margin-right: 30px;
+}
+
+#online #text {
+	padding-top: 5px;
+}
+
+#online h5 {
+	color: #fff;
+	font-size: 1.800em;
+	text-transform: uppercase;
+}
+
+#online h3 {
+	color: #444444;
+	font-size: 2.000em;
+	font-weight: bold;
+	margin: 25px 0 3px 0;
+}
+
+#online span {
+	color: #444444;
+	font-size: 1.600em;
+	font-weight: bold;
+}
+
+#online p {
+	color: #444444;
+	font-size: 1.400em;
+	margin: 20px 0 20px 0;
+}
+
+
+/* FOOTER 
+----------------------------------------*/
+#footer {
+	background-color: #333327;
+	padding: 30px 0 40px 16%;
+}
+
+#footer p {
+	color: #6f6f6e;
+	text-align: center;
+	width: 860px;
+	font-size: 1.000em;
+	line-height: 12px;
+}
+
+#footer a {
+	color: #c75113;
+	border-bottom: 1px solid #c75113;
+}
+
+
+
+
+
 
 
