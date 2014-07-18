@@ -12,12 +12,48 @@
 <div id="wrapper">
 
 	<div id="topBar">
-
+		<img src="img/logo.png" alt="Full Sail Logo">
 	</div><!-- topBar -->
 
-	<form id="info" name="requestInfo">
+	<div id="info">
+		<h3>Request Info</h3>
 
-	</form>
+		<form name="requestInfo">
+			<!-- first -->
+			<label for="firstName">First Name</label>
+			<input type="text" name="firstName" required />
+
+			<!-- last -->
+			<label for="lastName">Last Name</label>
+			<input type="text" name="lastName" required />
+
+			<!-- email -->
+			<label for="email">Email</label>
+			<input type="email" name="email" required />
+
+			<!-- phone -->
+			<label for="phone">Phone</label>
+			<input type="tel" name="phone" required  />
+
+			<!-- country -->
+			<label for="country">Country</label>
+			<select name="country">
+				<option value="Country Name">Country Name</option>
+				<option value="Country Name">Country Name</option>
+				<option value="Country Name">Country Name</option>
+			</select>
+
+			<!-- zip -->
+			<label for="zip">Zip</label>
+			<input type="number" name="zip" required min="5" />
+
+			<input type="submit" class="btn" name="Reqbtn" />
+		</form>
+
+		<p class="warning">
+			By submitting this form, I give consent to Full Sail University and its partners (RMCAD and LA Film School) to contact me by telephone (including autodialed and prerecorded messages) at the number I have provided to receive information about Full Sail's offerings. I understand that this consent is not required in order to enroll.  
+		</p>
+	</div><!-- info -->
 
 	<div id="featureImg">
 
