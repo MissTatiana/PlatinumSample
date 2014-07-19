@@ -45,8 +45,7 @@ body {
 /* FORM
 -------------------------------------*/
 #info {
-	width: 320px;
-	height: ;
+	width: 24%;/*32px*/
 	background-color: #333327;
 	position: absolute;
 	z-index: 1;
@@ -57,12 +56,12 @@ body {
 #info h4 {
 	font-size: 1.800em;
 	color: #f7f6f6;
-	padding: 20px 10px 0 20px;
+	padding: 20px 03.125% 0 06.25%;/*10/320 - 20/320*/
 	text-transform: uppercase;
 }
 
 #info form {
-	padding: 10px 20px 10px 20px;
+	padding: 10px 06.25% 10px 06.25%;
 }
 
 label {
@@ -73,7 +72,7 @@ label {
 }
 
 input {
-	width: 270px;
+	width: 95.5%;/*270px*/
 	height: 20px;
 	padding-bottom: 5px;
 }
@@ -94,9 +93,9 @@ input {
 .dropdown dt a {
 	background: #f7f6f6 url(../img/arrow.png) no-repeat scroll right center;
     display: block;  
-    width: 255px;
+    width: 91%;
     height: 20px;
-    padding: 5px 20px 5px 0;
+    padding: 5px 06.25% 5px 0;
 }
 
 .dropdown dt a span {
@@ -116,7 +115,7 @@ input {
     left: 0px; 
     top: 2px; 
     width: auto; 
-    min-width: 255px;
+    min-width: 91%;
 }
 
 .dropdown span.value { 
@@ -143,7 +142,7 @@ input {
 }
 
 .btn {
-	width: 279px;
+	width: 97.5%;/*255*/
 	height: 30px;
 	background-color: #c75113;
 	margin: 20px 0 5px 0;
@@ -160,8 +159,8 @@ input {
 }
 
 .warning {
-	width: 270px;
-	padding: 5px 20px 20px 20px;
+	width: 88%;/*270*/
+	padding: 5px 06.25% 20px 06.25%;/*20px*/
 	color: #f7f6f6;
 	line-height: 15px;
 	font-size: 1.300em;
@@ -177,7 +176,7 @@ input {
 }
 
 #degree {
-	width: 250px;
+	width: 20%;/*250px*/
 	height: 60px;
 	background-color: rgba(26, 26, 26, 0.7);
 	position: absolute;
@@ -189,13 +188,13 @@ input {
 	color: #fff;
 	font-size: 1.700em;
 	font-weight: bold;
-	padding: 10px 0 3px 15px;
+	padding: 10px 0 3px 6%;/*15px*/
 }
 
 #degree p {
 	color: #fff;
 	font-size: 1.400em;
-	padding: 3px 0 10px 15px;
+	padding: 3px 0 10px 6%;/*15px*/
 }
 
 .i {
@@ -222,7 +221,7 @@ input {
 
 #bodyText p {
 	margin: 20px 0 0 0;
-	width: 430px;
+	width: 40%;/*430px*/
 	font-size: 1.400em;
 	line-height: 15px;
 }
@@ -235,7 +234,7 @@ input {
 
 
 .hr {
-	width: 320px;
+	width: 30%;/*320px*/
 	float: left;
 	border-bottom: 2px solid #d4d4d4;
 	margin-top: 10px;
@@ -247,14 +246,14 @@ input {
 
 
 #focusIntro h3 {
-	width: 260px;
+	width: 17%;/*260px*/
 	float: left;
 	font-size: 2.000em;
 	color: #7d7d7d;
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 1px;
-	padding: 0 5px 0 5px;
+	padding: 0 2% 0 2%;
 }
 
 #focusAreas {
@@ -265,11 +264,11 @@ input {
 }
 
 .focus {
-	width: 230px;
+	width: 20%;/*230px*/
 	float: left;
 	position: relative;
 	top: -30px;
-	margin: 0 30px 0 40px;
+	margin: 0 3% 0 4%;
 	text-align: center;
 }
 
@@ -330,13 +329,14 @@ input {
 }
 
 #learning {
-	width: 300px;
+	width: 27%;
 	display: inline-block;
 }
 
 #media,
-#video {
-	margin: 0 50px 0 50px;
+#video,
+#schedule {
+	margin: 0 5% 0 5%;
 }
 
 .banner { 
@@ -359,7 +359,7 @@ input {
 }
 
 #next {
-	left: 860px;
+	left: 80%;
 }
 
 
@@ -367,13 +367,13 @@ input {
 ----------------------------------------*/
 #footer {
 	background-color: #333327;
-	padding: 30px 0 40px 17%;
+	padding: 30px 0 40px 20%;
 }
 
 #footer p {
 	color: #6f6f6e;
 	text-align: center;
-	width: 860px;
+	width: 75%;
 	font-size: 1.000em;
 	line-height: 12px;
 	letter-spacing: 1px;
@@ -384,6 +384,305 @@ input {
 	border-bottom: 1px solid #c75113;
 }
 
+
+
+/* MEDIA QUERIES 
+----------------------------------------------*/
+@media screen and (max-width: 800px) {
+/* BODY 
+--------------------------------------*/
+
+#topBar img {
+	padding: 5px 0 0 10%;
+}
+
+
+/* FORM
+-------------------------------------*/
+#info {
+	width: 35%;/*32px*/
+	top: 60px;
+	left: 55%;
+}
+
+
+/* Feature Image
+-----------------------------------------*/
+#degree {
+	width: 30%;/*250px*/
+	left: 10%;
+}
+
+/* BODY TEXT
+----------------------*/
+#bodyText {
+	padding: 50px 0 0 10%;
+}
+
+
+/* FOCUS AREAS
+------------------------*/
+#focusIntro {
+	padding: 70px 0 0 10%;
+}
+
+.hr {
+	width: 30%;/*320px*/
+}
+
+#focusIntro h3 {
+	width: 27%;/*260px*/
+}
+
+#focusAreas {
+	padding: 0px 0 0 6%;
+}
+
+.focus {
+	width: 25%;/*230px*/
+	text-align: center;
+}
+
+
+/* ONLINE 
+-------------------------*/
+#online {
+	padding: 40px 0 0 5%;
+	height: 230px;
+}
+
+.slideContent img {
+	float: left;
+	margin-right: 2%;
+	margin-left: 5%;
+	width: 40%;
+}
+
+
+.slideText h5 {
+	color: #fff;
+	font-size: 1.800em;
+	text-transform: uppercase;
+}
+
+.slideText h3 {
+	margin: 15px 0 3px 0;
+}
+
+.slideText p {
+	color: #444444;
+	font-size: 1.400em;
+	margin: 10px 0 10px 0;
+	display: block;
+}
+
+#learning {
+	width: 35%;
+}
+
+#media,
+#schedule {
+	margin: 0 5% 0 5%;
+}
+
+#video {
+	margin-left: 7%;
+}
+
+.arrow {
+	top: 40px;
+}
+
+#next {
+	left: 93%;
+}
+
+
+/* FOOTER 
+----------------------------------------*/
+#footer {
+	background-color: #333327;
+	padding: 30px 0 40px 10%;
+}
+
+#footer p {
+	color: #6f6f6e;
+	text-align: center;
+	width: 90%;
+	font-size: 1.000em;
+	line-height: 12px;
+	letter-spacing: 1px;
+}
+
+#footer a {
+	color: #c75113;
+	border-bottom: 1px solid #c75113;
+}
+
+
+}
+
+/* MOBILE
+--------------------*/
+@media screen and (max-width: 580px) {
+
+	
+/* BPDY STYLES
+--------------------*/
+img {
+	width: 50%;
+}
+
+#topBar img {
+	padding: 5px 0 0 5%;
+}
+
+
+/* FORM
+-----------------------*/
+#info {
+	width: 100%;
+	position: relative;
+	top: 0px;
+	left: 0;
+}
+
+label {
+	padding: 10px 0 5px 0;
+}
+
+input {
+	width: 100%;/*420/480*/
+	padding-bottom: 5px;
+}
+
+.dropdown dt a {
+    width: 95%;
+}
+
+.btn {
+	width: 100%;
+}
+
+.warning {
+	width: 90%;
+}
+
+
+/* Feature Image
+-----------------------------------------*/
+#degree {
+	width: 100%;
+	left: 0;
+}
+
+/* BODY TEXT
+----------------------*/
+#bodyText {
+	padding: 50px 0 0 5%;
+}
+
+#bodyText p {
+	margin: 20px 0 0 0;
+	width: 90%;/*430px*/
+	font-size: 1.400em;
+	line-height: 15px;
+}
+
+/* FOCUS AREAS
+------------------------*/
+#focusIntro {
+	padding: 70px 0 0 5%;
+}
+
+.hr {
+	width: 25%;
+}
+
+#focusIntro h3 {
+	width: 42%;
+	padding: 0 01.0416667% 0 01.0416667%;/*5/480*/
+}
+
+
+#focusAreas {
+	padding: 5px 0 35px 2%;
+	margin-top: 40px;
+	height: 400px;
+}
+
+.focus {
+	width: 400px;
+	float: none;
+	top: 0;
+	margin: 20px 0 0 2%;
+	text-align: left;
+}
+
+.focus img {
+	float: left;
+	margin-right: 30px;
+	width: 31%;
+}
+
+
+/* ONLINE 
+-------------------------*/
+#online {
+	padding: 20px 0 0 5%;
+	height: 300px;
+}
+
+.slideContent {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.slideContent img {
+	float: none;
+	margin-right: 11%;
+}
+
+.slideText {
+	padding: 5px 05.2083333% 0 0;/*25/480*/
+	text-align: center;
+}
+
+.slideText h5 {
+	color: #fff;
+	font-size: 1.800em;
+	text-transform: uppercase;
+}
+
+.slideText h3 {
+	margin: 10px 0 3px 0;
+}
+
+.slideText p {
+	margin: 8px 0 8px 10px;
+}
+
+#learning {
+	width: 90%;
+}
+
+#next {
+	left: 91%;
+}
+
+
+/* FOOTER 
+----------------------------------------*/
+#footer {
+	padding: 30px 0 40px 5%;
+}
+
+#footer p {
+	width: 95%;
+}
+
+
+}/*480*/
 
 
 
