@@ -32,10 +32,6 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#wrapper {
-	margin: 0 auto;
-}
-
 #topBar {
 	background-color: #333327;
 	height: 40px;
